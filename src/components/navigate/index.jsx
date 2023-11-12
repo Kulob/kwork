@@ -4,7 +4,12 @@ import {
     StarBorderOutlined,
     TextsmsOutlined,
     GppGoodOutlined,
-    AccountTreeOutlined
+    AccountTreeOutlined,
+    Inventory2Outlined,
+    FavoriteBorderOutlined,
+    RemoveRedEyeOutlined,
+    ReceiptOutlined,
+    ForumOutlined
 } from '@mui/icons-material';
 
 export const navMenu = [
@@ -43,5 +48,38 @@ export const navMenu = [
         icon: <AccountTreeOutlined />,
         path: '/random',
         id: 6
+    },
+    {
+        name: 'Форум',
+        icon: <ForumOutlined />,
+        path: '/forum',
+        id: 7
     }
+]
+export const navMenuColor = [
+    {
+        name: 'Продать товар',
+        icon: <Inventory2Outlined />,
+        path: '/product',
+        id: 1
+    },
+    {
+        name: 'Закладки',
+        icon: <FavoriteBorderOutlined />,
+        count: 16,
+        path: '/likes',
+        id: 2
+    },
+    {
+        name: 'История просмотра',
+        icon: <RemoveRedEyeOutlined />,
+        path: '/view',
+        id: 3
+    },
+    {
+        name: 'Покупки и продажи',
+        icon: <ReceiptOutlined />,
+        path: '/sale',
+        id: 4
+    },
 ]

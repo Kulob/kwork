@@ -8,6 +8,11 @@ import ReviewsPage from './pages/reviews';
 import LayoutPage from './pages/layout';
 import WarrantyPage from './pages/warranty';
 import RandomItem from './pages/randomItem';
+import LikesPage from './pages/likes';
+import ForumPage from './pages/forum';
+import ProductPage from './pages/product';
+import ViewPage from './pages/view';
+import SalePage from './pages/sale';
 
 function App() {
   return (
@@ -21,6 +26,11 @@ function App() {
         <Route path='/reviews' element={<ReviewsPage/>}/>
         <Route path='/warranty' element={<WarrantyPage/>}/>
         <Route path='/random' element={<RandomItem/>}/>
+        <Route path='/forum' element={<ForumPage/>}/>
+        <Route path='/product' element={<ProductPage/>}/>
+        <Route path='/view' element={<ViewPage/>}/>
+        <Route path='/likes' element={<LikesPage/>}/>
+        <Route path='/sale' element={<SalePage/>}/>
       </Route>
       </Routes>
       
