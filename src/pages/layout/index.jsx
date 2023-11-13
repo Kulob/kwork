@@ -5,10 +5,12 @@ import TopBar from '../../components/topBar'
 
 const LayoutPage = () => {
   return (
-    <div className=' flex'>
+    <div className=' flex layout'>
         
+        <div className=" sidebar">
         <Sidebar/>
-        <div className=" flex flex-col">
+        </div>
+        <div className=" flex flex-col topbar">
         <TopBar/>
         <Outlet/>
         </div>
