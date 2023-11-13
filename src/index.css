@@ -3,11 +3,6 @@
 @tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   
 }
 
@@ -17,4 +12,27 @@ code {
 }
 :root{
   background: #F6F7FF;
+}
+@font-face {
+  font-family: gilroy-regular;
+  src: url(../public/Gilroy/Gilroy-Regular.ttf);
+}
+.gilroy-regular{
+  font-family: gilroy-regular;
+}
+
+@font-face {
+  font-family: gilroy-light;
+  src: url(../public/Gilroy/Gilroy-Light.ttf);
+}
+.gilroy-light{
+  font-family: gilroy-light;
+}
+
+@font-face {
+  font-family: gilroy-semibold;
+  src: url(../public/Gilroy/Gilroy-SemiBold.ttf);
+}
+.gilroy-semibold{
+  font-family: gilroy-semibold;
 }

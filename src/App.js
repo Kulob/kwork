@@ -13,6 +13,7 @@ import ForumPage from './pages/forum';
 import ProductPage from './pages/product';
 import ViewPage from './pages/view';
 import SalePage from './pages/sale';
+import QuestionPage from './pages/question';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path='/view' element={<ViewPage/>}/>
         <Route path='/likes' element={<LikesPage/>}/>
         <Route path='/sale' element={<SalePage/>}/>
+        <Route path='/question' element={<QuestionPage/>}/>
       </Route>
       </Routes>
       
