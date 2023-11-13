@@ -33,6 +33,7 @@ function App() {
         <Route path='/likes' element={<LikesPage/>}/>
         <Route path='/sale' element={<SalePage/>}/>
         <Route path='/question' element={<QuestionPage/>}/>
+        
       </Route>
       </Routes>
       
